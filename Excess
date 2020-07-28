@@ -1,0 +1,17 @@
+#Create a loop that will repeat for every player
+def AddOne():
+  return(i+1)
+def AddTwo():
+  return(i+2)
+Score = 0
+running = True
+while running:
+  num = int(input(">>Enter numbers 1 or 2: "))
+  print(num)
+  if num == 1:
+    AddOne(Score)
+  print(Score)
+  if num == 2:
+    AddTwo(Score)
+  print(Score)
+    
